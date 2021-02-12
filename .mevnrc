@@ -1,0 +1,8 @@
+{
+  "name": "custeed-challenge",
+  "template": "GraphQL",
+  "isConfigured": {
+    "client": false,
+    "server": false
+  }
+}
