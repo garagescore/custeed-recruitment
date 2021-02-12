@@ -31,67 +31,37 @@
     <h3>Essential Links</h3>
     <ul>
       <li>
-        <a href="https://mevn.madlabs.xyz" target="_blank" rel="noopener"
-          >Core Docs</a
-        >
+        <a href="https://mevn.madlabs.xyz" target="_blank" rel="noopener">Core Docs</a>
       </li>
       <li>
-        <a
-          href="https://github.com/madlabsinc/mevn-cli"
-          target="_blank"
-          rel="noopener"
-          >GitHub Repo</a
-        >
+        <a href="https://github.com/madlabsinc/mevn-cli" target="_blank" rel="noopener">GitHub Repo</a>
       </li>
       <li>
-        <a href="https://spectrum.chat/mevn-cli" target="_blank" rel="noopener"
-          >Community Chat</a
-        >
+        <a href="https://spectrum.chat/mevn-cli" target="_blank" rel="noopener">Community Chat</a>
       </li>
       <li>
-        <a href="https://twitter.com/mevn_cli" target="_blank" rel="noopener"
-          >Twitter</a
-        >
+        <a href="https://twitter.com/mevn_cli" target="_blank" rel="noopener">Twitter</a>
       </li>
       <li>
-        <a
-          href="https://opencollective.com/mevn-cli"
-          target="_blank"
-          rel="noopener"
-          >Open Collective</a
-        >
+        <a href="https://opencollective.com/mevn-cli" target="_blank" rel="noopener">Open Collective</a>
       </li>
     </ul>
     <h3>Ecosystem</h3>
     <ul>
       <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener"
-          >vue-router</a
-        >
+        <a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a>
       </li>
       <li>
         <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
       </li>
       <li>
-        <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
-          target="_blank"
-          rel="noopener"
-          >vue-devtools</a
-        >
+        <a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a>
       </li>
       <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
-          >vue-loader</a
-        >
+        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a>
       </li>
       <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-          rel="noopener"
-          >awesome-vue</a
-        >
+        <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>
       </li>
     </ul>
   </div>
@@ -99,10 +69,10 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 };
 </script>
 

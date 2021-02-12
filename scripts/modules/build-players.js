@@ -51,7 +51,8 @@ const buildSkills = (playerClass, level) => {
   return { health, earth, wind, fire, water };
 };
 
-const buildPlayer = ({ firstName, lastName, username, level }, playerClasses, availableWeapons) => {
+const buildPlayer = ({ firstName, lastName, username, age }, playerClasses, availableWeapons) => {
+  const level = parseInt(age, 10);
   const playerClass = randomElement(playerClasses);
   const weapon = randomElement(availableWeapons)._id;
   return {
@@ -67,8 +68,8 @@ const buildPlayer = ({ firstName, lastName, username, level }, playerClasses, av
 const buildPlayersDataFromLines = (playerInfoLines, playerClasses, weapons) => {
   // Format is firstName, lastName, username, age
   return playerInfoLines.map((playerInfoLine) => {
-    const [firstName, lastName, username, level] = playerInfoLine.split(',');
-    return buildPlayer({ firstName, lastName, username, level }, playerClasses, weapons);
+    const [firstName, lastName, username, age] = playerInfoLine.split(',');
+    return buildPlayer({ firstName, lastName, username, age }, playerClasses, weapons);
   });
 };
 

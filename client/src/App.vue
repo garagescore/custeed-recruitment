@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Hello world</router-link>
+      <router-link to="/">Home</router-link>
       <span class="separator">&nbsp;|&nbsp;</span>
+      <router-link to="/players">Players list</router-link>
     </div>
     <div id="container">
       <router-view />
@@ -18,8 +19,12 @@ body {
   color: #fff;
   background-color: #061734;
 
+  #app {
+    max-width: 60%;
+    margin: auto;
+  }
   #nav {
-    padding: 34px 62px;
+    padding: 34px 0px;
     img {
       margin-right: 30px;
     }
@@ -37,8 +42,6 @@ body {
   }
 
   #container {
-    max-width: 60%;
-    margin: auto;
     margin-top: 30px;
   }
 }
