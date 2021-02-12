@@ -1,0 +1,10 @@
+{
+  "name": "custeed-challenge",
+  "version": "1.0.0",
+  "description": "Recruitment test @Custeed",
+  "scripts": {
+    "reset": "node scripts/database-builder.js --reset",
+    "build": "cd server && npm install && cd ../client && npm install"
+  },
+  "dependencies": {}
+}
