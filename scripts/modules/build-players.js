@@ -3,7 +3,7 @@
 const fs = require('fs');
 const { randomElement } = require('./_common');
 // n is the amount of players we want
-const extractPlayerBasicInfoFromCSV = (n = 1000) => {
+const extractPlayerBasicInfoFromCSV = (n = 10000) => {
   const fileContent = fs.readFileSync(__dirname + '/../assets/playerBasicInfo.csv', 'utf8');
   const [headerLine, ...playerInfoLines] = fileContent.split('\n').filter((line) => line);
   return playerInfoLines.splice(0, n);

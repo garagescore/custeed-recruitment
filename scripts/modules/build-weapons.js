@@ -12,7 +12,7 @@ const generateWeaponName = (weaponType) => {
   if (diceRoll > 0.95) {
     return randomElement(epicNames);
   }
-  return `${randomElement(genericNames)} ${randomElement(weaponSubtypes[weaponType])}`;
+  return `${randomElement(weaponSubtypes[weaponType])} ${randomElement(genericNames)}`;
 };
 
 const getRandomWeapon = () => {
@@ -29,6 +29,6 @@ const getRandomWeapon = () => {
 
 module.exports = {
   buildWeaponsData() {
-    return Array.from(Array(10000)).map(getRandomWeapon);
+    return Array.from(Array(100000)).map(getRandomWeapon);
   },
 };
